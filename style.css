@@ -1,0 +1,71 @@
+body{
+    font-family: Poppins;
+    background-color:black;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    position:relative;
+    left:135px;
+    top:-50px
+}
+#try{
+    position: relative;
+}
+#MyButton{
+    position: relative;   
+    left: 50%;
+    font-size: 20px;
+    margin-bottom: 50px;
+    cursor:pointer;
+    border-radius: 5px;
+    border-style: none;
+    transition: .2s;
+    font-family: Poppins;
+}
+#MyButton:hover{
+    transition: .2s;
+    color:rgb(101, 101, 103);
+    transform: scale(1.5);
+    font-family: Poppins;
+    box-shadow: 2px 2px 5px rgb(129, 129, 129);
+}
+#MyButton:active{
+    transition: .2s;
+    background-color:rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    color:white;
+    border:1px white
+}
+#MyHeader{
+    border-style: solid;
+    border:1px solid white;
+    margin-right: 25em;
+    text-align: center;
+    margin-left:50px;
+    left: 33%;
+    position: relative;
+}
+#Game{
+    border:2px solid gray;
+    margin: 10px;
+}
+#Won{
+    border-style: solid;
+    border:1px solid white;
+    margin-right: 25em;
+    text-align: center;
+    left: 23%;
+    position: relative;
+    font-size: 20px;
+
+}
+#Tries{
+    position:relative;
+    left:58%;
+}
+label{
+    position:relative;
+    left:47%;
+}
